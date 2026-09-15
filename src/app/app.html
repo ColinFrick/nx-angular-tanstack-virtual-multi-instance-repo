@@ -1,0 +1,16 @@
+<main>
+    <h1>TanStack Angular Virtual multi-instance repro</h1>
+    <p>
+        Expected input counts: <code>8, 7, 1, 1, 1</code>.
+        Open DevTools and compare <code>INPUT</code> with <code>VIRTUALIZER</code>.
+    </p>
+
+    <div class="columns">
+        @for (column of columns(); track column.id) {
+            <app-workorder-table
+                    [name]="column.id"
+                    [workorders]="column.workorders"
+            />
+        }
+    </div>
+</main>

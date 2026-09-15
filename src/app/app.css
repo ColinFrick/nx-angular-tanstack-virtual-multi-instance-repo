@@ -1,0 +1,12 @@
+main { padding: 24px; }
+h1 { font-family: system-ui, sans-serif; margin-top: 0; }
+p { color: #bbb; }
+.columns {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    gap: 12px;
+    align-items: start;
+}
+@media (max-width: 900px) {
+    .columns { grid-template-columns: 1fr; }
+}

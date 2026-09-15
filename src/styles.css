@@ -1,0 +1,10 @@
+:root {
+    color-scheme: dark;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    background: #111;
+    color: #eee;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, code { font: inherit; }

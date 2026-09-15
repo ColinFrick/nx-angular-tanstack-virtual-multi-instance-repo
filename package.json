@@ -1,0 +1,48 @@
+{
+  "name": "@nx-angular-tanstack-virtual-multi-instance-repo/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nx serve",
+    "test": "nx test"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "~22.1.0",
+    "@angular/compiler": "~22.1.0",
+    "@angular/core": "~22.1.0",
+    "@angular/forms": "~22.1.0",
+    "@angular/platform-browser": "~22.1.0",
+    "@angular/router": "~22.1.0",
+    "@tanstack/angular-virtual": "6.0.4",
+    "rxjs": "~7.8.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~22.1.0",
+    "@angular-devkit/core": "~22.1.0",
+    "@angular-devkit/schematics": "~22.1.0",
+    "@angular/build": "~22.1.0",
+    "@angular/cli": "~22.1.0",
+    "@angular/compiler-cli": "~22.1.0",
+    "@angular/language-service": "~22.1.0",
+    "@nx/angular": "23.2.0",
+    "@nx/angular-rspack": "23.2.0",
+    "@nx/js": "23.2.0",
+    "@nx/rspack": "23.2.0",
+    "@nx/web": "23.2.0",
+    "@nx/workspace": "23.2.0",
+    "@rspack/cli": "2.0.4",
+    "@rspack/core": "2.0.4",
+    "@rspack/dev-server": "^2.0.1",
+    "@schematics/angular": "~22.1.0",
+    "@swc/helpers": "~0.5.18",
+    "nx": "23.2.0",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "~6.0.3",
+    "webpack-merge": "^5.8.0"
+  },
+  "nx": {
+    "includedScripts": []
+  }
+}

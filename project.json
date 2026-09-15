@@ -1,0 +1,25 @@
+{
+  "name": "nx-angular-tanstack-virtual-multi-instance-repo",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "includedScripts": [],
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "./src",
+  "tags": [],
+  "targets": {
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "nx-angular-tanstack-virtual-multi-instance-repo:build"
+      }
+    },
+    "serve-static": {
+      "continuous": true,
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "nx-angular-tanstack-virtual-multi-instance-repo:build",
+        "spa": true
+      }
+    }
+  }
+}
